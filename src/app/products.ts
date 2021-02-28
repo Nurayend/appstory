@@ -1,6 +1,7 @@
 export const products = [
   {
     id: 1,
+    categoryId: 1,
     name: 'The Very Hungry Caterpillar',
     price: 799,
     rating: 4.9,
@@ -13,6 +14,7 @@ export const products = [
   },
   {
     id: 2,
+    categoryId: 1,
     name: 'Goodnight Moon',
     price: 699,
     rating: 5.0,
@@ -24,6 +26,7 @@ export const products = [
   },
   {
     id: 3,
+    categoryId: 1,
     name: 'Love You Forever',
     price: 299,
     rating: 4.3,
@@ -35,6 +38,7 @@ export const products = [
   },
   {
     id: 4,
+    categoryId: 1,
     name: 'Think Again: The Power of Knowing What You Dont Know',
     price: 299,
     rating: 4.3,
@@ -46,6 +50,7 @@ export const products = [
   },
   {
     id: 5,
+    categoryId: 1,
     name: 'Where is Spot?',
     price: 299,
     rating: 4.3,
@@ -56,59 +61,16 @@ export const products = [
     image3: ['https://images-na.ssl-images-amazon.com/images/I/41BfQ+oM5ZL.jpg']
   },
   {
-    id: 6,
-    name: 'The Giving Tree',
+    id: 1,
+    categoryId: 2,
+    name: 'Where is Spot?',
     price: 299,
     rating: 4.3,
-    description: 'The Giving Tree, a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein, has been a classic favorite for generations.',
+    description: 'With its bold blue cover, this board book edition of Eric Hill’s classic story featuring everyone’s favorite puppy is just as iconic as the first lift-the-flap edition.',
     link: 'https://www.amazon.com/dp/1984878107/ref=s9_acsd_ri_bw_c2_x_7_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-12&pf_rd_r=S82ZVD0BWP9XD8VA8X85&pf_rd_t=101&pf_rd_p=5ce6d8b8-5077-495c-9f75-aa09194de846&pf_rd_i=283155',
-    image: ['https://images-na.ssl-images-amazon.com/images/I/41fR2KV7jzL._SX376_BO1,204,203,200_.jpg'],
-    image2: ['https://images-na.ssl-images-amazon.com/images/I/81CLVUGaRZL.jpg'],
-    image3: ['https://images-na.ssl-images-amazon.com/images/I/31vTM89aO-L.jpg']
-  },
-  {
-    id: 7,
-    name: 'The Four Winds: A Novel',
-    price: 299,
-    rating: 4.8,
-    description: 'From the number-one bestselling author of The Nightingale and The Great Alone comes a powerful American epic about love and heroism and hope, set during the Great Depression, a time when the country was in crisis and at war with itself, when millions were out of work and even the land seemed to have turned against them.',
-    link: 'https://www.amazon.com/dp/1250178606/ref=s9_acsd_ri_bw_c2_x_2_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=S82ZVD0BWP9XD8VA8X85&pf_rd_t=101&pf_rd_p=d2e01c79-7462-4300-8d41-3633536344dc&pf_rd_i=283155',
-    image: ['https://images-na.ssl-images-amazon.com/images/I/51r9ZiBU6rL._SX327_BO1,204,203,200_.jpg'],
-    image2: ['https://images-na.ssl-images-amazon.com/images/I/81C+2Ts2-nL.jpg'],
-    image3: ['https://quotefancy.com/media/wallpaper/1600x900/723344-Julia-Quinn-Quote-The-Smythe-Smith-musicale-Thankfully-it-came.jpg']
-  },
-  {
-    id: 8,
-    name: 'Dr. Seusss Beginner Book Collection (Cat in the Hat, One Fish Two Fish, Green Eggs and Ham, Hop on Pop, Fox in Socks)',
-    price: 299,
-    rating: 4.3,
-    description: 'This collectible Dr. Seuss boxed set is perfect for inspiring a love of reading, and with five books in one super giftable set, it will complete any beginning readers shelf!',
-    link: 'https://www.amazon.com/dp/1984878107/ref=s9_acsd_ri_bw_c2_x_7_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-12&pf_rd_r=S82ZVD0BWP9XD8VA8X85&pf_rd_t=101&pf_rd_p=5ce6d8b8-5077-495c-9f75-aa09194de846&pf_rd_i=283155',
-    image: ['https://images-na.ssl-images-amazon.com/images/I/81FxtWFGiiL.jpg'],
-    image2: ['https://images-na.ssl-images-amazon.com/images/I/81eyvBglfbL.jpg'],
-    image3: ['https://images-na.ssl-images-amazon.com/images/I/81uYtyU3lNL.jpg']
-  },
-  {
-    id: 9,
-    name: 'Brown Bear, Brown Bear, What Do You See?',
-    price: 299,
-    rating: 4.3,
-    description: 'A big happy frog, a plump purple cat, a handsome blue horse, and a soft yellow duck--all parade across the pages of this delightful book. Children will immediately respond to Eric Carles flat, boldly colored collages. Combined with Bill Martins singsong text, they create unforgettable images of these endearing animals.',
-    link: 'https://www.amazon.com/dp/0805047905/ref=s9_acsd_ri_bw_c2_x_1_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-12&pf_rd_r=S82ZVD0BWP9XD8VA8X85&pf_rd_t=101&pf_rd_p=5ce6d8b8-5077-495c-9f75-aa09194de846&pf_rd_i=283155',
-    image: ['https://images-na.ssl-images-amazon.com/images/I/81EVdWdmOKL.jpg'],
-    image2: ['https://images-na.ssl-images-amazon.com/images/I/51f1UfYBF0L.jpg'],
-    image3: ['https://images-na.ssl-images-amazon.com/images/I/41qzXK9Kz-L.jpg']
-  },
-  {
-    id: 10,
-    name: 'See, Touch, Feel: A First Sensory Book',
-    price: 299,
-    rating: 4.3,
-    description: 'There is lots for baby to explore in See, Touch, Feel: A First Sensory Book. This sturdy board book, with bright photographs of happy babies, is specially designed to stimulate curiosity through sensory play. Each page has a colorful picture activity that invites baby to touch and explore. There are raised textures to feel, finger trails to follow, and a shiny mirror to look in to. Can they follow the swirl on the snail is shell. Can they tap the drum?',
-    link: 'https://www.amazon.com/dp/0312527594/ref=s9_acsd_ri_bw_c2_x_2_t?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-12&pf_rd_r=S82ZVD0BWP9XD8VA8X85&pf_rd_t=101&pf_rd_p=5ce6d8b8-5077-495c-9f75-aa09194de846&pf_rd_i=283155',
-    image: ['https://images-na.ssl-images-amazon.com/images/I/51QM2+Zrf2L._SY451_BO1,204,203,200_.jpg'],
-    image2: ['https://images-na.ssl-images-amazon.com/images/I/71gQwQzRPML.jpg'],
-    image3: ['https://cdn.wallpapersafari.com/77/24/27DVkJ.jpg']
+    image: ['https://images-na.ssl-images-amazon.com/images/I/51amEygdqQL._SX483_BO1,204,203,200_.jpg'],
+    image2: ['https://images-na.ssl-images-amazon.com/images/I/51iUjPYh5FL.jpg'],
+    image3: ['https://images-na.ssl-images-amazon.com/images/I/41BfQ+oM5ZL.jpg']
   },
 ];
 

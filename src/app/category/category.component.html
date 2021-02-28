@@ -1,0 +1,13 @@
+<div *ngFor="let category of categories">
+    <h3>
+      <ul>
+        <li><a [title]="category.name + ' details'" 
+            [routerLink] ="['/categories', category.categoryId]" >
+            {{ category.name }}
+        </a></li>
+      </ul>
+    </h3>
+    <p *ngIf="category.description">
+    {{ category.description }}
+    </p>
+</div> 
