@@ -26,7 +26,8 @@ import { CategoryComponent } from './category/category.component';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
       { path: '', component: ProductItemComponent },
-      { path: 'category', component: CategoryComponent }
+      { path: 'category', component: CategoryComponent },
+      { path: 'categories/:categoryId', redirectTo: 'products/:categoryId', pathMatch: 'full'}
     ])
   ],
   declarations: [
